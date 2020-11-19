@@ -1,3 +1,11 @@
+### **🚨⚠🚨 Storybook `6.0.x` Static Deployment Issue 🚨⚠🚨**
+
+**Storybook `6.0.x` has an issue when building it static for deployment. This issue is preventing navigation between stories when visiting it, and is a known of Storybook ([storybookjs/storybook#11958](https://github.com/storybookjs/storybook/issues/11958)). Thankfully as of `11/19/2020` Storybook `6.1.0` [has been released](https://www.npmjs.com/package/@storybook/vue), fixing this bug.**
+
+**This issue should not affect most of you as Slice Machine installs Storybook `5.x.x` by default. If you updated to Storybook `6.0.x`, update it again to Storybook `6.1.0` in order to fix this bug.**
+
+**In any case regarding _#SliceContest_ if your deployed version of Storybook does not behave as it does in development mode (`$ yarn storybook`), have no worries, we will attempt to run it in development mode if we notice something is wrong.**
+
 # Slice Library Next.js Starter
 
 > Looking for the Vue.js counterpart? [Check out the Nuxt.js starter](https://github.com/prismicio-community/slice-library-starter-nuxt#readme).
