@@ -6,28 +6,27 @@
   "license": "MIT",
   "main": "slices/index.js",
   "scripts": {
-    "next:dev": "next dev",
-    "next:build": "next build",
-    "next:start": "next start",
-    "next:export": "next export",
-    "build": "yarn build-storybook && shx mv storybook-static out",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
     "slicemachine": "start-slicemachine --port 9999"
   },
   "dependencies": {
-    "next": "^10.0.0",
-    "next-slicezone": "^0.0.10",
-    "next-transpile-modules": "^4.1.0",
+    "next": "^10.0.5",
+    "next-slicezone": "^0.0.12",
+    "next-transpile-modules": "^6.0.0",
     "prismic-javascript": "^3.0.2",
     "prismic-reactjs": "^1.3.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prismic-cli": "3.8.3-beta.0",
+    "prismic-cli": "3.8.5",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.0.38",
+    "slice-machine-ui": "^0.0.43",
     "sm-commons": "^0.0.23"
   }
 }
