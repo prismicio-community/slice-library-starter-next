@@ -24,7 +24,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prismic-cli": "3.8.5",
+    "prismic-cli": "3.8.6",
     "shx": "^0.3.3",
     "slice-machine-ui": "^0.0.43",
     "sm-commons": "^0.0.23"
