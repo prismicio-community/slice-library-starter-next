@@ -54,13 +54,13 @@ $ yarn prismic <command> <options>
 $ npm run prismic -- <command> <options>
 ```
 
-If you still wish to use the CLI installed globally make sure you are running version `3.8.5` or greater:
+If you still wish to use the CLI installed globally make sure you are running version `3.8.6` or greater:
 
 ```bash
 # Installing the CLI globally using Yarn (optional)
-$ yarn global add prismic-cli@3.8.5
+$ yarn global add prismic-cli@3.8.6
 # Installing the CLI globally using npm (optional)
-$ npm install --global prismic-cli@3.8.5
+$ npm install --global prismic-cli@3.8.6
 
 # You can then use the CLI globally...
 $ prismic <command> <options>
