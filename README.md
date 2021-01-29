@@ -1,3 +1,5 @@
+**📣 Custom mocks are here! They are still quite basic but will provide a better experience working with generated content! You can start playing with them under each field settings of the Slice Machine UI~**
+
 # Slice Library Next.js Starter
 
 > Looking for the Vue.js counterpart? [Check out the Nuxt.js starter](https://github.com/prismicio-community/slice-library-starter-nuxt#readme).
@@ -54,13 +56,13 @@ $ yarn prismic <command> <options>
 $ npm run prismic -- <command> <options>
 ```
 
-If you still wish to use the CLI installed globally make sure you are running version `3.8.6` or greater:
+If you still wish to use the CLI installed globally make sure you are running version `3.8.7` or greater:
 
 ```bash
 # Installing the CLI globally using Yarn (optional)
-$ yarn global add prismic-cli@3.8.6
+$ yarn global add prismic-cli@3.8.7
 # Installing the CLI globally using npm (optional)
-$ npm install --global prismic-cli@3.8.6
+$ npm install --global prismic-cli@3.8.7
 
 # You can then use the CLI globally...
 $ prismic <command> <options>
