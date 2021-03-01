@@ -1,6 +1,5 @@
 {
-  "libraries": [
-    "@/slices"
-  ],
+  "apiEndpoint": "https://your-repo-name.cdn.prismic.io/api/v2",
+  "libraries": ["@/slices"],
   "_latest": "0.0.44"
 }
