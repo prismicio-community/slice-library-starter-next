@@ -99,7 +99,7 @@ Finally, and since that's a requirement for this contest, you will want to boots
 $ yarn prismic sm --add-storybook
 ```
 
-This should create a simple Storybook inside your project. Bear in mind though that this one is still quite basic, feel free to go fancy by adding [addons](https://storybook.js.org/addons) and more! Here's an example of a more elaborated Storybook documentation of a slice library for inspiration:[pxlsls-story.samuelhorn.com](https://pxlsls-story.samuelhorn.com/?path=/story/partials-thefooter--default)
+This should create a simple Storybook inside your project. Bear in mind though that this one is still quite basic, feel free to go fancy by adding [addons](https://storybook.js.org/addons) and more! Here's an example of a more elaborated Storybook documentation of a slice library for inspiration: [pxlsls-story.samuelhorn.com](https://pxlsls-story.samuelhorn.com/?path=/story/partials-thefooter--default)
 
 > ⚠ Storybook is known for being quite picky with its dependencies. If you experience a blank page when running it with a lot of errors in the browser console try deleting your lock file and installing dependencies again, this should fix the issue.
 
