@@ -17,15 +17,7 @@ export const accessToken = "";
 // Manages the url links to internal Prismic documents
 export const linkResolver = (doc) => {
   if (doc.type === "post") {
-    return `/blog/${doc.uid}`;
-  }
-  return "/";
-};
-
-// Additional helper function for Next/Link components
-export const hrefResolver = (doc) => {
-  if (doc.type === "post") {
-    return "/blog/[uid]";
+    return `/${doc.uid}`;
   }
   return "/";
 };
@@ -33,7 +25,7 @@ export const hrefResolver = (doc) => {
 export const customLink = (type, element, content, children, index) => (
   <Link
     key={index}
-    href={hrefResolver(element.data)}
+    href={linkResolver(element.data)}
     as={linkResolver(element.data)}
   >
     <a>{content}</a>
