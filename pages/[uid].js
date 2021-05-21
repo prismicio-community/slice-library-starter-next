@@ -9,14 +9,25 @@ const Page = (props) => <SliceZone {...props} resolver={resolver} />;
 // Fetch content from prismic
 export const getStaticProps = useGetStaticProps({
   client: Client(),
-  uid: ({ params }) => params.uid,
+  queryType: 'repeat',
+  type: 'page',
+  apiParams({ params }) {
+    return {
+      uid: params.uid
+    }
+  }
 });
 
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
-  type: "page",
-  fallback: process.env.NODE_ENV === "development",
-  formatPath: ({ uid }) => ({ params: { uid } }),
+  type: 'page',
+  formatPath: (prismicDocument) => {
+    return {
+      params: {
+        uid: prismicDocument.uid
+      }
+    }
+  }
 });
 
 export default Page;
